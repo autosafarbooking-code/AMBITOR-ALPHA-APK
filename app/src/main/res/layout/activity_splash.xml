@@ -1,8 +1,9 @@
+
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#0B1220">
+    android:background="#050B16">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -14,34 +15,16 @@
 
         <ImageView
             android:id="@+id/splashLogo"
-            android:layout_width="130dp"
-            android:layout_height="130dp"
-            android:src="@mipmap/ic_launcher"
+            android:layout_width="260dp"
+            android:layout_height="260dp"
+            android:src="@drawable/ambitor_alpha_logo"
+            android:scaleType="fitCenter"
             android:contentDescription="AMBITOR ALPHA Logo"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="22dp"
-            android:text="AMBITOR ALPHA"
-            android:textColor="#FFFFFF"
-            android:textSize="25sp"
-            android:textStyle="bold"
-            android:letterSpacing="0.08"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:text="MISSION - AMBITOR ALPHA"
-            android:textColor="#27C5F4"
-            android:textSize="12sp"
-            android:letterSpacing="0.12"/>
 
         <ProgressBar
             android:layout_width="150dp"
             android:layout_height="4dp"
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="24dp"
             android:indeterminate="true"
             android:indeterminateTint="#27C5F4"/>
 
