@@ -1,5 +1,4 @@
-
-package com.ambitoralalpha.workdesk;
+package com.ambitoralalpha.app;
 
 import android.app.Activity;
 import android.os.Bundle;
